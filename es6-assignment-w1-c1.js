@@ -1,13 +1,15 @@
- const student1 = { name: 'Marie', age: 22, city: 'Yaounde', skills:
+const student1 = { name: 'Marie', age: 22, city: 'Yaounde', skills:
 ['HTML', 'CSS'] };
 const student2 = { name: 'Paul', age: 25, city: 'Douala', skills:
 ['Python', 'SQL'] };
 
-const getCity = (student) => {
-    const {city} = student;
-    console.log(city);
-    return city;
-};
+// const getCity = (student) => {
+//     const {city} = student;
+//     console.log(city);
+//     return city;
+// };
+const getCity = ({city}) => {city;
+console.log(city);}
 
 const buildProfile = (student, extraSkills) => {
     const {name, age, skills} = student;
@@ -22,5 +24,5 @@ const mergeStudents = (s1, s2) => {
     };
 };
 
-console.log(buildProfile(student2, ['JavaScript', 'React']));
+console.log(buildProfile(student1, ['JavaScript', 'React']));
 console.log(mergeStudents(student1, student2));
