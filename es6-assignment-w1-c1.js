@@ -19,7 +19,7 @@ const mergeStudents = (s1, s2) => {
     const {name: name1} = s1;
     const {name: name2} = s2;
     return {
-        name: name1 + ' & ' + name2,
+        name: `${name1} & ${name2}`,
         city: 'Cameroon'
     };
 };
