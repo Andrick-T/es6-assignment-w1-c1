@@ -69,7 +69,7 @@ const fetchFoodData = () => {
     });
 };
 
-// Function to display food items based on category
+// Function to display food items
 const displayFood = async () => {
     try {
         console.log("Fetching food data...");
