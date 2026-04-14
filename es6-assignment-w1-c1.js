@@ -1,3 +1,4 @@
+//Authour: Tchoukeu Andrick
 const student1 = { name: 'Marie', age: 22, city: 'Yaounde', skills:
 ['HTML', 'CSS'] };
 const student2 = { name: 'Paul', age: 25, city: 'Douala', skills:

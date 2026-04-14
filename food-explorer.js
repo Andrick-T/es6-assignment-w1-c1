@@ -1,4 +1,5 @@
-//creation of a food list with properties such as id, name, price, category and rating
+//Authour: Tchoukeu Andrick
+//creation of a food list with properties id, name, price, category and rating
 
 const foodList = [{
     id: 1,
